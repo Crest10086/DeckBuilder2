@@ -1,0 +1,395 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MenuList version="1.0007">
+  <!-- 这里的version最多只能有1个小数点 -->
+  <Menu MenuId="0" Text="限制类型">
+    <MenuItem Id="0" Text="全部" ClickedText="限制类型">
+      <SearchText></SearchText>
+    </MenuItem>
+    <Separator Id="1"></Separator>
+    <MenuItem Id="2" Text="禁止卡">
+      <SearchText>+limit:0</SearchText>
+    </MenuItem>
+    <MenuItem Id="3" Text="限制卡">
+      <SearchText>+limit:1</SearchText>
+    </MenuItem>
+    <MenuItem Id="4" Text="准限制卡">
+      <SearchText>+limit:2</SearchText>
+    </MenuItem>
+    <MenuItem Id="5" Text="无限制卡">
+      <SearchText>+limit:3</SearchText>
+    </MenuItem>
+    <Separator Id="6"></Separator>
+    <MenuItem Id="7" Text="观赏卡">
+      <SearchText>+limit:4</SearchText>
+    </MenuItem>
+    <MenuItem Id="8" Text="OCG专有卡">
+      <SearchText>+cardCamp:OCG</SearchText>
+    </MenuItem>
+    <MenuItem Id="9" Text="TCG专有卡">
+      <SearchText>+cardCamp:TCG</SearchText>
+    </MenuItem>
+    <MenuItem Id="10" Text="非专有卡">
+      <SearchText>(cardType:怪兽 or cardType:魔法 or cardType:陷阱) -cardCamp:OCG -cardCamp:TCG</SearchText>
+    </MenuItem>
+    <MenuItem Id="11" Text="OCG环境">
+      <SearchText>(cardType:怪兽 or cardType:魔法 or cardType:陷阱) -cardCamp:TCG</SearchText>
+    </MenuItem>
+    <MenuItem Id="12" Text="TCG环境">
+      <SearchText>(cardType:怪兽 or cardType:魔法 or cardType:陷阱) -cardCamp:OCG</SearchText>
+    </MenuItem>
+    <MenuItem Id="13" Text="DIY卡">
+      <SearchText>+limit:5</SearchText>
+    </MenuItem>
+  </Menu>
+  <Menu MenuId="1" Text="卡片种类">
+    <MenuItem Id="0" Text="全部" ClickedText="卡片种类">
+      <SearchText></SearchText>
+    </MenuItem>
+    <Separator Id="1"></Separator>
+    <MenuItem Id="2" Text="通常怪兽">
+      <SearchText>+cardType:通常怪兽</SearchText>
+    </MenuItem>
+    <MenuItem Id="3" Text="效果怪兽">
+      <SearchText>+cardType:效果怪兽</SearchText>
+    </MenuItem>
+    <MenuItem Id="4" Text="融合怪兽">
+      <SearchText>+cardType:融合怪兽</SearchText>
+    </MenuItem>
+    <MenuItem Id="5" Text="同调怪兽">
+      <SearchText>+cardType:同调怪兽</SearchText>
+    </MenuItem>
+    <MenuItem Id="6" Text="仪式怪兽">
+      <SearchText>+cardType:仪式怪兽</SearchText>
+    </MenuItem>
+    <MenuItem Id="7" Text="XYZ怪兽">
+      <SearchText>+cardType:XYZ怪兽</SearchText>
+    </MenuItem>
+    <MenuItem Id="8" Text="所有怪兽">
+      <SearchText>+cardType:怪兽</SearchText>
+    </MenuItem>
+    <MenuItem Id="9" Text="魔法">
+      <SearchText>+cardType:魔法</SearchText>
+    </MenuItem>
+    <MenuItem Id="10" Text="陷阱">
+      <SearchText>+cardType:陷阱</SearchText>
+    </MenuItem>
+    <MenuItem Id="11" Text="魔法/陷阱">
+      <SearchText>+(cardType:魔法 cardType:陷阱)</SearchText>
+    </MenuItem>
+  </Menu>
+  <Menu MenuId="2" Text="怪兽星级">
+    <MenuItem Id="0" Text="全部" ClickedText="怪兽星级">
+      <SearchText></SearchText>
+    </MenuItem>
+    <Separator Id="1"></Separator>
+    <MenuItem Id="2" Text="1-4星">
+      <SearchText>+level:[01 TO 04]</SearchText>
+    </MenuItem>
+    <MenuItem Id="3" Text="5-6星">
+      <SearchText>+level:[05 TO 06]</SearchText>
+    </MenuItem>
+    <MenuItem Id="4" Text="7星以上">
+      <SearchText>+level:[07 TO 12]</SearchText>
+    </MenuItem>
+    <Separator Id="5"></Separator>
+    <MenuItem Id="6" Text="1星怪兽">
+      <SearchText>+level:1</SearchText>
+    </MenuItem>
+    <MenuItem Id="7" Text="2星怪兽">
+      <SearchText>+level:2</SearchText>
+    </MenuItem>
+    <MenuItem Id="8" Text="3星怪兽">
+      <SearchText>+level:3</SearchText>
+    </MenuItem>
+    <MenuItem Id="9" Text="4星怪兽">
+      <SearchText>+level:4</SearchText>
+    </MenuItem>
+    <MenuItem Id="10" Text="5星怪兽">
+      <SearchText>+level:5</SearchText>
+    </MenuItem>
+    <MenuItem Id="11" Text="6星怪兽">
+      <SearchText>+level:6</SearchText>
+    </MenuItem>
+    <MenuItem Id="12" Text="7星怪兽">
+      <SearchText>+level:7</SearchText>
+    </MenuItem>
+    <MenuItem Id="13" Text="8星怪兽">
+      <SearchText>+level:8</SearchText>
+    </MenuItem>
+    <MenuItem Id="14" Text="9星以上">
+      <SearchText>+level:[09 TO 12]</SearchText>
+    </MenuItem>
+  </Menu>
+  <Menu MenuId="3" Text="怪兽属性">
+    <MenuItem Id="0" Text="全部" ClickedText="怪兽属性">
+      <SearchText></SearchText>
+    </MenuItem>
+    <Separator Id="1"></Separator>
+    <MenuItem Id="2" Text="光" ClickedText="光属性">
+      <SearchText>+element:光</SearchText>
+    </MenuItem>
+    <MenuItem Id="3" Text="暗" ClickedText="暗属性">
+      <SearchText>+element:暗</SearchText>
+    </MenuItem>
+    <MenuItem Id="4" Text="水" ClickedText="水属性">
+      <SearchText>+element:水</SearchText>
+    </MenuItem>
+    <MenuItem Id="5" Text="炎" ClickedText="炎属性">
+      <SearchText>+element:炎</SearchText>
+    </MenuItem>
+    <MenuItem Id="6" Text="地" ClickedText="地属性">
+      <SearchText>+element:地</SearchText>
+    </MenuItem>
+    <MenuItem Id="7" Text="风" ClickedText="风属性">
+      <SearchText>+element:风</SearchText>
+    </MenuItem>
+    <MenuItem Id="8" Text="神" ClickedText="神属性">
+      <SearchText>+element:神</SearchText>
+    </MenuItem>
+  </Menu>
+  <Menu MenuId="4" Text="怪兽种族">
+    <MenuItem Id="0" Text="全部" ClickedText="怪兽种族">
+      <SearchText></SearchText>
+    </MenuItem>
+    <Separator Id="1"></Separator>
+    <MenuItem Id="2" Text="战士" ClickedText="战士族">
+      <SearchText>+tribe:战士</SearchText>
+    </MenuItem>
+    <MenuItem Id="3" Text="恶魔" ClickedText="恶魔族">
+      <SearchText>+tribe:恶魔</SearchText>
+    </MenuItem>
+    <MenuItem Id="4" Text="机械" ClickedText="机械族">
+      <SearchText>+tribe:机械</SearchText>
+    </MenuItem>
+    <MenuItem Id="5" Text="魔法师" ClickedText="魔法师族">
+      <SearchText>+tribe:魔法师</SearchText>
+    </MenuItem>
+    <MenuItem Id="6" Text="天使" ClickedText="天使族">
+      <SearchText>+tribe:天使</SearchText>
+    </MenuItem>
+    <MenuItem Id="7" Text="龙" ClickedText="龙族">
+      <SearchText>+tribe:龙</SearchText>
+    </MenuItem>
+    <MenuItem Id="8" Text="兽" ClickedText="兽族">
+      <SearchText>+tribe:兽</SearchText>
+    </MenuItem>
+    <MenuItem Id="9" Text="昆虫" ClickedText="昆虫族">
+      <SearchText>+tribe:昆虫</SearchText>
+    </MenuItem>
+    <MenuItem Id="10" Text="岩石" ClickedText="岩石族">
+      <SearchText>+tribe:岩石</SearchText>
+    </MenuItem>
+    <MenuItem Id="11" Text="水" ClickedText="水族">
+      <SearchText>+tribe:水</SearchText>
+    </MenuItem>
+    <MenuItem Id="12" Text="不死" ClickedText="不死族">
+      <SearchText>+tribe:不死</SearchText>
+    </MenuItem>
+    <MenuItem Id="13" Text="兽战士" ClickedText="兽战士族">
+      <SearchText>+tribe:兽战士</SearchText>
+    </MenuItem>
+    <MenuItem Id="14" Text="炎" ClickedText="炎族">
+      <SearchText>+tribe:炎</SearchText>
+    </MenuItem>
+    <MenuItem Id="15" Text="爬虫类" ClickedText="爬虫类族">
+      <SearchText>+tribe:爬虫类</SearchText>
+    </MenuItem>
+    <MenuItem Id="16" Text="鸟兽" ClickedText="鸟兽族">
+      <SearchText>+tribe:鸟兽</SearchText>
+    </MenuItem>
+    <MenuItem Id="17" Text="恐龙" ClickedText="恐龙族">
+      <SearchText>+tribe:恐龙</SearchText>
+    </MenuItem>
+    <MenuItem Id="18" Text="植物" ClickedText="植物族">
+      <SearchText>+tribe:植物</SearchText>
+    </MenuItem>
+    <MenuItem Id="19" Text="雷" ClickedText="雷族">
+      <SearchText>+tribe:雷</SearchText>
+    </MenuItem>
+    <MenuItem Id="20" Text="鱼" ClickedText="鱼族">
+      <SearchText>+tribe:鱼</SearchText>
+    </MenuItem>
+    <MenuItem Id="21" Text="海龙" ClickedText="海龙族">
+      <SearchText>+tribe:海龙</SearchText>
+    </MenuItem>
+    <MenuItem Id="22" Text="念动力" ClickedText="念动力族">
+      <SearchText>+tribe:念动力</SearchText>
+    </MenuItem>
+    <MenuItem Id="23" Text="幻神兽" ClickedText="幻神兽族">
+      <SearchText>+tribe:幻神兽</SearchText>
+    </MenuItem>
+  </Menu>
+  <Menu MenuId="5" Text="魔陷种类">
+    <MenuItem Id="0" Text="全部" ClickedText="魔陷种类">
+      <SearchText></SearchText>
+    </MenuItem>
+    <Separator Id="1"></Separator>
+    <MenuItem Id="2" Text="速攻魔法">
+      <SearchText>+cardType:速攻魔法</SearchText>
+    </MenuItem>
+    <MenuItem Id="3" Text="装备魔法">
+      <SearchText>+cardType:装备魔法</SearchText>
+    </MenuItem>
+    <MenuItem Id="4" Text="场地魔法">
+      <SearchText>+cardType:场地魔法</SearchText>
+    </MenuItem>
+    <MenuItem Id="5" Text="仪式魔法">
+      <SearchText>+cardType:仪式魔法</SearchText>
+    </MenuItem>
+    <MenuItem Id="6" Text="永续魔法">
+      <SearchText>+cardType:永续魔法</SearchText>
+    </MenuItem>
+    <MenuItem Id="7" Text="通常魔法">
+      <SearchText>+cardType:通常魔法</SearchText>
+    </MenuItem>
+    <MenuItem Id="8" Text="反击陷阱">
+      <SearchText>+cardType:反击陷阱</SearchText>
+    </MenuItem>
+    <MenuItem Id="9" Text="永续陷阱">
+      <SearchText>+cardType:永续陷阱</SearchText>
+    </MenuItem>
+    <MenuItem Id="10" Text="通常陷阱">
+      <SearchText>+cardType:通常陷阱</SearchText>
+    </MenuItem>
+  </Menu>
+  <Menu MenuId="6" Text="效果种类">
+    <MenuItem Id="0" Text="全部" ClickedText="效果种类">
+      <SearchText></SearchText>
+    </MenuItem>
+    <Separator Id="1"></Separator>
+    <MenuItem Id="2" Text="调整怪兽">
+      <SearchText>(+(effect:"效果·调整" effect:"通常·调整") -cardType:同调) (+effect:"同调·调整·调整" -effect:"同调·调整·调整以外")</SearchText>
+    </MenuItem>
+    <MenuItem Id="3" Text="魔陷破坏">
+      <SearchText>+(effectType:魔陷破坏)</SearchText>
+    </MenuItem>
+    <MenuItem Id="4" Text="怪兽破坏">
+      <SearchText>+(effectType:怪兽破坏)</SearchText>
+    </MenuItem>
+    <MenuItem Id="5" Text="抽卡辅助">
+      <SearchText>+(effectType:抽卡辅助)</SearchText>
+    </MenuItem>
+    <MenuItem Id="6" Text="卡组检索">
+      <SearchText>+(effectType:卡组检索)</SearchText>
+    </MenuItem>
+    <MenuItem Id="7" Text="卡片回收">
+      <SearchText>+(effectType:卡片回收)</SearchText>
+    </MenuItem>
+    <MenuItem Id="8" Text="卡片除外">
+      <SearchText>+(effectType:卡片除外)</SearchText>
+    </MenuItem>
+    <MenuItem Id="9" Text="送去墓地">
+      <SearchText>+(effectType:送去墓地)</SearchText>
+    </MenuItem>
+    <MenuItem Id="10" Text="墓地回收">
+      <SearchText>+(effectType:卡片回收) +(effect:墓地)</SearchText>
+    </MenuItem>
+    <MenuItem Id="12" Text="特殊召唤">
+      <SearchText>+(effectType:特殊召唤)</SearchText>
+    </MenuItem>
+    <MenuItem Id="13" Text="表示形式">
+      <SearchText>+(effectType:表示形式)</SearchText>
+    </MenuItem>
+    <MenuItem Id="14" Text="控制权">
+      <SearchText>+(effectType:控制权)</SearchText>
+    </MenuItem>
+    <Separator Id="14"></Separator>
+    <SubMenuItem Id="15" Text="同调相关">
+      <MenuItem Id="0" Text="调整怪兽">
+        <SearchText>(+(effect:"效果·调整" effect:"通常·调整") -cardType:同调)  (+effect:"同调·调整·调整" -effect:"同调·调整·调整以外")</SearchText>
+      </MenuItem>
+      <MenuItem Id="1" Text="同调相关">
+        <SearchText>(+effectType:同调相关)</SearchText>
+      </MenuItem>
+    </SubMenuItem>
+    <SubMenuItem Id="16" Text="破坏相关">
+      <MenuItem Id="0" Text="魔陷破坏">
+        <SearchText>+(effectType:魔陷破坏)</SearchText>
+      </MenuItem>
+      <MenuItem Id="1" Text="怪兽破坏">
+        <SearchText>+(effectType:怪兽破坏)</SearchText>
+      </MenuItem>
+      <MenuItem Id="2" Text="卡组破坏">
+        <SearchText>+(effectType:卡组破坏)</SearchText>
+      </MenuItem>
+      <MenuItem Id="3" Text="手牌破坏">
+        <SearchText>+(effectType:手牌破坏)</SearchText>
+      </MenuItem>
+      <MenuItem Id="4" Text="破坏耐性">
+        <SearchText>+(effectType:破坏耐性)</SearchText>
+      </MenuItem>
+      <MenuItem Id="5" Text="代替破坏">
+        <SearchText>+(effect:代替) +(effect:破坏)</SearchText>
+      </MenuItem>
+    </SubMenuItem >
+    <SubMenuItem Id="17" Text="手牌相关">
+      <MenuItem Id="0" Text="抽卡辅助">
+        <SearchText>+(effectType:抽卡辅助)</SearchText>
+      </MenuItem>
+      <MenuItem Id="2" Text="手牌破坏">
+        <SearchText>+(effectType:手牌破坏)</SearchText>
+      </MenuItem>
+    </SubMenuItem>
+    <SubMenuItem Id="18" Text="卡组相关">
+      <MenuItem Id="0" Text="卡组检索">
+        <SearchText>+(effectType:卡组检索)</SearchText>
+      </MenuItem>
+      <MenuItem Id="2" Text="卡组破坏">
+        <SearchText>+(effectType:卡组破坏)</SearchText>
+      </MenuItem>
+    </SubMenuItem>
+    <SubMenuItem Id="20" Text="攻击相关">
+      <MenuItem Id="0" Text="贯通伤害">
+        <SearchText>+(effectType:贯通伤害)</SearchText>
+      </MenuItem>
+      <MenuItem Id="1" Text="直接攻击">
+        <SearchText>+(effectType:直接攻击)</SearchText>
+      </MenuItem>
+      <MenuItem Id="2" Text="多次攻击">
+        <SearchText>+(effectType:多次攻击)</SearchText>
+      </MenuItem>
+      <MenuItem Id="3" Text="攻击限制">
+        <SearchText>+(effectType:攻击限制)</SearchText>
+      </MenuItem>
+    </SubMenuItem>
+    <SubMenuItem Id="21" Text="数值相关">
+      <MenuItem Id="0" Text="攻守变化">
+        <SearchText>+(effectType:攻守变化)</SearchText>
+      </MenuItem>
+      <MenuItem Id="1" Text="LP伤害">
+        <SearchText>+(effectType:LP伤害)</SearchText>
+      </MenuItem>
+      <MenuItem Id="2" Text="LP回复">
+        <SearchText>+(effectType:LP回复)</SearchText>
+      </MenuItem>
+    </SubMenuItem>
+    <SubMenuItem Id="22" Text="效果相关">
+      <MenuItem Id="0" Text="效果无效">
+        <SearchText>+(effectType:效果无效)</SearchText>
+      </MenuItem>
+      <MenuItem Id="3" Text="反转效果">
+        <SearchText>+(effect:反转)</SearchText>
+      </MenuItem>
+    </SubMenuItem>
+    <SubMenuItem Id="23" Text="更多">
+      <MenuItem Id="0" Text="属性相关">
+        <SearchText>+(effectType:属性相关)</SearchText>
+      </MenuItem>
+      <MenuItem Id="1" Text="种族相关">
+        <SearchText>+(effectType:种族相关)</SearchText>
+      </MenuItem>
+      <MenuItem Id="2" Text="XYZ相关">
+        <SearchText>+(effectType:XYZ相关)</SearchText>
+      </MenuItem>
+      <MenuItem Id="3" Text="赌博相关">
+        <SearchText>+(effectType:赌博相关)</SearchText>
+      </MenuItem>
+      <MenuItem Id="9" Text="衍生物">
+        <SearchText>+(effectType:衍生物)</SearchText>
+      </MenuItem>
+      <MenuItem Id="28" Text="指示物">
+        <SearchText>+(effectType:指示物)</SearchText>
+      </MenuItem>
+    </SubMenuItem>
+  </Menu>
+</MenuList>

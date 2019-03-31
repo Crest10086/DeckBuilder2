@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeckBuilder2", "DeckBuilder2\DeckBuilder2.csproj", "{B1CAB24E-6840-4F48-8421-943B41CD5056}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConveterTools", "ConveterTools\ConveterTools.csproj", "{FB09F410-9F00-4D17-8E60-2A1EF63BE0A8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B1CAB24E-6840-4F48-8421-943B41CD5056} = {B1CAB24E-6840-4F48-8421-943B41CD5056}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1CAB24E-6840-4F48-8421-943B41CD5056}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1CAB24E-6840-4F48-8421-943B41CD5056}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1CAB24E-6840-4F48-8421-943B41CD5056}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1CAB24E-6840-4F48-8421-943B41CD5056}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB09F410-9F00-4D17-8E60-2A1EF63BE0A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB09F410-9F00-4D17-8E60-2A1EF63BE0A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB09F410-9F00-4D17-8E60-2A1EF63BE0A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB09F410-9F00-4D17-8E60-2A1EF63BE0A8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
